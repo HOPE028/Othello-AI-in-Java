@@ -206,15 +206,15 @@ public class AI {
 			else score += 3;
 		}
 		if (board[7][0] != 0) {
-			if (board[0][0] == 1) score -= 3;
+			if (board[7][0] == 1) score -= 3;
 			else score += 3;
 		}
 		if (board[0][7] != 0) {
-			if (board[0][0] == 1) score -= 3;
+			if (board[0][7] == 1) score -= 3;
 			else score += 3;
 		}
 		if (board[7][7] != 0) {
-			if (board[0][0] == 1) score -= 3;
+			if (board[7][7] == 1) score -= 3;
 			else score += 3;
 		}
 		
